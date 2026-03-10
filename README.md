@@ -1,7 +1,4 @@
 # Python-Chat-OpenAI-Admission-ETTI
-Admission Assistant for ETTI - UPB 2025
-I built this project to solve a real problem: university admission regulations are usually 40+ pages of dense PDF text that's a nightmare to navigate. This is a full-stack AI assistant that "reads" the official ETTI (Electronics and Telecommunications) documents and answers candidate questions instantly.
-
 How I built it
 Instead of just sending a user's question to an AI (which often leads to "hallucinations" or made-up rules), I implemented a RAG (Retrieval-Augmented Generation) workflow.
 
