@@ -1,8 +1,11 @@
 # Python-Chat-OpenAI-Admission-ETTI
 How I built it
+
 Instead of just sending a user's question to an AI (which often leads to "hallucinations" or made-up rules), I implemented a RAG (Retrieval-Augmented Generation) workflow.
 
-The Brain (MySQL): When you start the app, it parses the Regulament_admitere_licenta_2025.pdf page by page. I used a MySQL database with a Full-Text search index to store this data.
+The Brain (MySQL): 
+
+When you start the app, it parses the Regulament_admitere_licenta_2025.pdf page by page. I used a MySQL database with a Full-Text search index to store this data.
 
 The Logic (Python): When a user asks something like "What documents do I need?", the script queries the database for the most relevant pages first.
 
